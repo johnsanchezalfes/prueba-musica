@@ -1,15 +1,61 @@
-.logo-img {
-  width: 100px;
+.musica-body{
+  background: #7a99ff;
+}
 
+.nav-contenedor{
+margin-top: 0px;
+margin-bottom: 5px;
+}
+
+.btn{
+  width: 150px;
+  color: #0051ff;
+  margin-left: 35px;
+  background: #7a99ff;
+}
+
+div[class^="nav"]{
+  background: #7a99ff;
+}
+
+.contenido{
+  background: #c124ff;
+}
+
+.img-1{
+  margin-top: 20px;
+  width: 20px;
+  height: auto;
+}
+
+.buscador{
+  background: #a39eff;
+}
+
+.jumbotron{
+  min-height: 500px;
+}
+
+.redes{
+  margin-top: 8%;
+  margin-bottom: 2%;
+}
+
+
+.logo-img {
+  width: 20%;
+  height: auto;
+  margin-top: 1%;
+  margin-bottom: 1%;
 }
 
 nav.navbar {
   background: #0051ff;
-  min-height: 15%;
+  min-height: 10px;
   border: none;
 }
 
 .redes{
-  margin-left: 1000px;
-  margin-bottom: 50px;
+  padding-right: 2;
+  margin-bottom: 2%;
 }
