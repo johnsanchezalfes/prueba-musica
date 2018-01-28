@@ -22,6 +22,8 @@
   background: #d470ff;
   border: solid 1px #2a0a33;
   color: #e60000;
+  padding: 2px;
+
 }
 
 .img-1{
@@ -35,7 +37,11 @@
   .img-1 {
     width: 90%;
     height: auto;
-    min-height: 150px;  }
+    min-height: 150px;
+   }
+   .buscador{
+     min-height: 0px;
+   }
 }
 
 .cont2{
@@ -65,10 +71,14 @@
   border: solid 1px #e62600;
 }
 
-.form-group{
+.list-group-item{
+  text-align: center;
+  color: #29258d
+}
+
+.form-control{
   margin-top: 15px;
   text-align: center;
-  background: #d94c30;
   border: solid 1px #e62600;
 }
 
@@ -80,7 +90,6 @@
 .jumbotron{
   min-height: 1500px;
   border: solid 1px #0b006b;
-
 }
 
 .redes{
