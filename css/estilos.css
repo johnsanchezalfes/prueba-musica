@@ -1,10 +1,12 @@
 .musica-body{
   background: #7a99ff;
+  border: solid 1px #0b006b;
 }
 
+
 .nav-contenedor{
-margin-top: 0px;
-margin-bottom: 5px;
+  margin-top: 0px;
+  margin-bottom: 5px;
 }
 
 .btn{
@@ -14,26 +16,71 @@ margin-bottom: 5px;
   background: #7a99ff;
 }
 
-div[class^="nav"]{
-  background: #7a99ff;
-}
+
 
 .contenido{
-  background: #c124ff;
+  background: #d470ff;
+  border: solid 1px #2a0a33;
+  color: #e60000;
 }
 
 .img-1{
   margin-top: 20px;
-  width: 20px;
+  width: 50%;
   height: auto;
+  min-height: 380px;
+}
+
+@media (max-width: 420px) {
+  .img-1 {
+    width: 90%;
+    height: auto;
+    min-height: 150px;  }
+}
+
+.cont2{
+  min-height: 480px;
+
+}
+
+.img-contenido{
+  border: solid 1px #e62600;
+
+}
+
+.form-control{
+  padding: 1px;
+  margin-left: 1px;
+  margin-right: 1px;
+}
+
+.pers{
+  width: 12%;
+  height: auto;
+  background: #c124ff;
 }
 
 .buscador{
-  background: #a39eff;
+  background: #8f9eea;
+  border: solid 1px #e62600;
+}
+
+.form-group{
+  margin-top: 15px;
+  text-align: center;
+  background: #d94c30;
+  border: solid 1px #e62600;
+}
+
+.form-con{
+  margin-top: 15px;
+  text-align: center;
 }
 
 .jumbotron{
-  min-height: 500px;
+  min-height: 1500px;
+  border: solid 1px #0b006b;
+
 }
 
 .redes{
@@ -47,12 +94,16 @@ div[class^="nav"]{
   height: auto;
   margin-top: 1%;
   margin-bottom: 1%;
+  border: solid 1px #0b006b;
+
 }
 
 nav.navbar {
   background: #0051ff;
   min-height: 10px;
   border: none;
+  border: solid 1px #0b006b;
+
 }
 
 .redes{
